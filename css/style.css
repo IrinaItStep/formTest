@@ -1,0 +1,10 @@
+*, html, body{ margin: 0; padding: 0; text-decoration: none; box-sizing: border-box; list-style: none; font-family: sans-serif;}
+body{background: #000;}
+div{width: 400px; height: 700px; position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto;}
+h2{font-size: 40px; color: #aeaeae;}
+form{width: 400px; height: 600px; background: #fff; padding: 20px 0; display: flex; flex-direction: column; justify-content: space-around; align-items: flex-start; border-radius: 20px}
+h3{width: 100%; text-align: center; padding: 10px 0; background: #aeaeae;}
+label{width: 85%; margin: 0 20px 10px}
+input, select{width: 85%; margin: 0 20px 20px}
+option[value="0"]~#country{color: #aeaeae;}
+input:last-child{width: 20%; background: #000; color: #fff; align-self: flex-end; border-radius: 7px}
